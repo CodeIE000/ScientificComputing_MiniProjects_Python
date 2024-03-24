@@ -1,8 +1,6 @@
-# CAESAR CIPHER
 text = 'Hello Zaira'
 shift = 3
 
-# Cipher Algorithm
 def caesar(message, offset):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted_text = ''
@@ -18,3 +16,4 @@ def caesar(message, offset):
     print('encrypted text:', encrypted_text)
 
 caesar(text, shift)
+caesar(text, 13)
