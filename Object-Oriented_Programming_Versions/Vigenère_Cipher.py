@@ -1,5 +1,6 @@
-class Vigenère_Cipher:
+# VIGENERE CIPHER [OWN VERSION]
 
+class Vigenère_Cipher:
     # Constructor
     def __init__(self, alphabet='abcdefghijklmnopqrstuvwxyz'):
         self.alphabet = alphabet
@@ -63,7 +64,6 @@ class Vigenère_Cipher:
                 key = self.get_key()
                 result = self.encrypt(message, key, key_index, final_message, 1) if choice == 1 else self.encrypt(message, key, key_index, final_message, -1)
                 print(f'{self.text}: ', result)
-
 
 # Main method
 def main():
