@@ -1,3 +1,5 @@
+# LUHN ALGORITHM [TUTORIAL CODE]
+
 def verify_card_number(card_number):
     card_number_reversed = card_number[::-1]
 

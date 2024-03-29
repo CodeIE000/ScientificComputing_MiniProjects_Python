@@ -1,4 +1,5 @@
-# VIGENERE CIPHER
+# VIGENERE CIPHER [TUTORIAL CODE]
+
 # text = 'mrttaqrhknsw ih puggrur'
 text = 'freecodecamp is awesome'
 custom_key = 'happycoding'

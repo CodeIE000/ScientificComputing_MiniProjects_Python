@@ -1,4 +1,4 @@
-# EXPENSE TRACKER
+# EXPENSE TRACKER [TUTORIAL CODE]
 
 
 def add_expense(expenses, amount, category):
